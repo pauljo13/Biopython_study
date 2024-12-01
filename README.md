@@ -30,3 +30,8 @@ Below is a summary of my daily learning milestones:
 	- 2024-11-26
 	- introduction biopython, Sequence objects 1(Sequences, Transcription) 
 	- [Note](notes/day1.ipynb)
+- Day 2
+	- 2024-12-1
+	- Sequence objects 2(Translation, Seq)
+	- [Note](notes/day2.ipynb)
+	
