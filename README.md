@@ -32,6 +32,5 @@ Below is a summary of my daily learning milestones:
 	- [Note](notes/day1.ipynb)
 - Day 2
 	- 2024-12-1
-	- Sequence objects 2(Translation, Seq)
+	- Sequence objects 2
 	- [Note](notes/day2.ipynb)
-	
