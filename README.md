@@ -34,3 +34,16 @@ Below is a summary of my daily learning milestones:
 	- 2024-12-1
 	- Sequence objects 2
 	- [Note](notes/day2.ipynb)
+- Day 3
+	- 2024-12-10
+	- SeqRecord
+	- [Note](notes/day3.ipynb)
+
+---
+### New start
+- Day 1
+	- 2025-01-21
+	- Introduction to Python / ppt 50p
+	- [Note](notes/nday1.ipynb)
+- Day 
+
