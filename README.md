@@ -45,5 +45,9 @@ Below is a summary of my daily learning milestones:
 	- 2025-01-21
 	- Introduction to Python / ppt 50p
 	- [Note](notes/nday1.ipynb)
-- Day 
+- Day 2
+	- 2025-01-22
+	- Introduction to Python part 2 / ppt 50p ~ 80p
+	- [Note](notes/nday2.ipynb)
+
 
