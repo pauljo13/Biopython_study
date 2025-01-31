@@ -142,3 +142,54 @@ def add2num(x, y):
 
 add2num(1.2, 'abc')
 add2num(1,2)
+
+def helloworld():
+    print('hello, world')
+    
+    
+def echo(whatever):
+    print(whatever)
+
+def addsub(x, y):
+    a = x + y
+    b = x - y
+    print(f'{x} + {y} = {a}')
+    print(f'{x} - {y} = {b}')
+    return (a, b)
+
+helloworld()
+echo('hello world')
+addsub(7,3)
+
+def welcome(x, y = 'hello'):
+    print(f'{x}, {y}')
+    
+welcome('hj')
+welcome('hj', 'hi')
+welcome(x = 'hj')
+welcome(y= 'bye', x = 'hj')
+
+def welcome_hj(x ='hj', y = 'hello'):
+    print(f'{x}, {y}')
+
+welcome_hj()
+
+# def welcome_hj2(x = 'hj', y):
+#     print(f'{y}, {x}')
+
+# welcome_hj2('bye')
+
+#Quiz
+nt_pairH = {'A':'T', 'T':'A', 'C':'G', 'G':'C'}
+orig_seq = input('enter your seq: ')
+temp_seq = orig_seq[::-1]
+rev_seq = ''.join(nt_pairH.get(nt, 'X') for nt in temp_seq)
+print(rev_seq)
+
+def reverse_complement():
+    orig = input('enter your seq: ')
+    rev = "".join(nt_pairH.get(nt, 'X') for nt in orig[::-1])
+    print(rev)
+    return rev
+
+reverse_complement()
