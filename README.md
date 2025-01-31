@@ -68,7 +68,10 @@ Below is a summary of my daily learning milestones:
 	- [Python](Python/nday4.py)
 - Day 5
 	- 2025-01-31
-	- Python,
+	- Python, os, pandas, user-defiend functions
+	- [Python](Python/nday5.py)
+- 
+
 	
 
 
