@@ -67,6 +67,8 @@ Below is a summary of my daily learning milestones:
 	- Introduction to Python 2 part 2 / ppt 50p ~ 73p
 	- [Python](Python/nday4.py)
 - Day 5
-	- 
+	- 2025-01-31
+	- Python,
+	
 
 

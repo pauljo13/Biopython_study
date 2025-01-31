@@ -64,4 +64,81 @@ new_file.close()
 
 
 # Read a text file
+""" 
+1. read(n) - read a string corresponding to the next block of n characters
+2. readline(n) - returns the next n characters from the next line
+3. readlines() - returns a list of strings with all the lines in the file
+"""
+print(os.getcwd())
+myfile = open('myfile2.txt')
+myfile.read()
+myfile.close()
 
+myfile = open('myfile2.txt')
+myfile.read(3)
+myfile.close()
+
+with open('myfile2.txt') as myfile:
+    myfile.read()
+    
+myfile = open('myfile2.txt')
+myfile.readlines()
+myfile.close()
+
+myfile = open('myfile2.txt')
+myfile.readline()
+myfile.readline(3)
+myfile.close()
+
+
+myfile = open('myfile2.txt')
+while True:
+    line = myfile.readline()
+    if not line:
+        break
+    print(line)
+myfile.close()
+
+myfile = open('myfile2.txt')
+for line in myfile:
+    print(line)
+myfile.close()
+
+myfile = open('myfile2.txt')
+for line in myfile:
+    print(line[:-1])
+myfile.close()
+
+# Quiz
+cop = {"A":"T","T":"A","C":"G","G":"C"}
+myseq = open('myseq.txt')
+seq = myseq.readlines()
+orig_seq = seq[0][:-1]
+temp_seq = orig_seq[::-1]
+rev_seq = "".join([cop.get(nt,'X') for nt in temp_seq])
+if seq[1][:-1] == rev_seq:
+    print('they are reverse complement')
+else:
+    print('they are not reverse complement')
+    
+    
+import pandas as pd
+# dt = pd.read_csv('pd_test.txt', sep='\t')
+# dt.to_csv('pd_test.csv', seq=",", index=False)
+
+# User-defined dunctions
+def myfunc1():
+    '''thus us a docstring'''
+    #this is a comment
+
+myfunc1.__doc__
+
+def add2num(x, y):
+    if isinstance(x, (int,float)) and isinstance(y, (int,float)):
+        z = x + y
+        return z
+    else:
+        print('please insert numeric data')
+
+add2num(1.2, 'abc')
+add2num(1,2)
