@@ -72,7 +72,7 @@ Below is a summary of my daily learning milestones:
 	- [Python](Python/nday5.py)
 - Day 6
 	- 2025-02-03
-	- Python, user-defiend, try-Except, exception / ppt2 p31 ~ p41 , ppt 3 p1 ~
+	- Python, user-defiend, try-Except, exception / ppt2 p31 ~ p41 , ppt 3 p1 ~ p12
 	- [Python](Python/nday6.py)
 
 
