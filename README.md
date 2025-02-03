@@ -51,26 +51,30 @@ Below is a summary of my daily learning milestones:
 	- [Python](Python/nday1.py)
 - Day 2
 	- 2025-01-22
-	- Introduction to Python 1 part 2 / ppt 50p ~ 80p
+	- Introduction to Python 1 part 2 / ppt1 50p ~ 80p
 	- [Note](notes/nday2.md)
 	- [Python](Python/nday2.py)
 - Day 3
 	- 2025-01-23
-	- Introduction to Python 1 part 3 / ppt 80p ~ 110p
-	- Introduction to Python 2 / ppt 50p
+	- Introduction to Python 1 part 3 / ppt1 80p ~ 110p
+	- Introduction to Python 2 / ppt1 50p
 	- [Note](notes/nday3.md)
 	- [Note2](notes/nday3-2.md)
 	- [Python](Python/nday3.py)
 	- [Python2](Python/nday3-2.py)
 - Day 4
 	- 2025-01-24
-	- Introduction to Python 2 part 2 / ppt 50p ~ 73p
+	- Introduction to Python 2 part 2 / ppt1 50p ~ 73p
 	- [Python](Python/nday4.py)
 - Day 5
 	- 2025-01-31
-	- Python, os, pandas, user-defiend functions
+	- Python, os, pandas, user-defiend functions / ppt2 p31
 	- [Python](Python/nday5.py)
-- 
+- Day 6
+	- 2025-02-03
+	- Python, user-defiend, try-Except, exception / ppt2 p31 ~ p41 , ppt 3 p1 ~
+	- [Python](Python/nday6.py)
+
 
 	
 
