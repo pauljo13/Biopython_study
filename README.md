@@ -76,7 +76,9 @@ Below is a summary of my daily learning milestones:
 	- [Python](Python/nday6.py)
 - Day 7
 	- 2025-02-04
-	- Python, 
+	- Python, class, Module / ppt4 13p ~ 28p
+	- [Python](Python/nday7.py)
+- Day 8
 
 	
 
