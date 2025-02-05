@@ -56,15 +56,15 @@ infile = open('%s/BIC0711_practice1/random_20nt_seq_1000.txt' % myDir, 'r')
 outfile = open('%s/BIC0711_practice1/random_20nt_seq_1000_rc.txt' % myDir, 'w')
 
 # 1)
-for line in infile:
-    orig_seq = line[:-1]
-    rec_seq = mf.rcClass.reverse_complement(orig_seq)
-    outfile.write(orig_seq + '\t' + rec_seq + '\n')
+# for line in infile:
+#     orig_seq = line[:-1]
+#     rec_seq = mf.rcClass.reverse_complement(orig_seq)
+#     outfile.write(orig_seq + '\t' + rec_seq + '\n')
 
 # 2)
 orig_seq_list = infile.readlines()
-rec_seq_list = [mf.rcClass.reverse_complement(seq[:-1]) for seq in orig_seq_list]
-result_list =  ['%s\t%s\n' % (x[:-1], y) for x, y in zip(orig_seq_list, rec_seq_list)]
+rec_seq_list = [mf.rcClass(seq[:-1]).reverse_complement() for seq in orig_seq_list]
+result_list =  ['%s\t%s' % (x[:-1], y) for x, y in zip(orig_seq_list, rec_seq_list)]
 outfile.writelines('\n'.join(result_list) + '\n')
 
 infile.close()
@@ -83,3 +83,20 @@ print(list(zip(a, b, c)))
 a = [1,2]
 b = range(1, 11)
 print(list(zip(a, b)))
+
+# Practice 3
+
+sys.path.append('/Users/knu_cgl1/Desktop/Study/Obsidian/Biopython_study/Python')
+import myfuncs
+class newClass(myfuncs.rcClassChild2):
+    def nt_ratio_all(self, type = 'orig'):
+        res = {}
+        for nt in ['A', 'T', 'G', 'C']:
+            if type == 'orig':
+                res[nt] = self.nt_ratio(nt)
+            elif type == 'rev':
+                res[nt] = self.rc_nt_ratio(nt)
+            else:
+                raise Exception(f'type should be "orig" or "rev", your input {type}')
+        return res
+    

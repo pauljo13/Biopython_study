@@ -80,8 +80,10 @@ Below is a summary of my daily learning milestones:
 	- [Python](Python/nday7.py)
 - Day 8
 	- 2025-02-05
-	- Python / ppt4 29p ~ 
+	- Python / ppt4 29p ~ 48p
 	- [Python](Python/nday8.py)
+- Day 9
+
 	
 
 
