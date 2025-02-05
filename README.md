@@ -30,17 +30,17 @@ Below is a summary of my daily learning milestones:
 	- 2024-11-26
 	- introduction biopython, Sequence objects 1(Sequences, Transcription) 
 	- [Note](notes/day1.md)
-	- [Python](Python/day1.py)
+	- [Python](Python/old_file/day1.py)
 - Day 2
 	- 2024-12-1
 	- Sequence objects 2
 	- [Note](notes/day2.md)
-	- [Python](Python/day2.py)
+	- [Python](Python/old_file/day2.py)
 - Day 3
 	- 2024-12-10
 	- SeqRecord
 	- [Note](notes/day3.md)
-	- [Python](Python/day3.py)
+	- [Python](Python/old_file/day3.py)
 
 ---
 ### New start
@@ -79,7 +79,9 @@ Below is a summary of my daily learning milestones:
 	- Python, class, Module / ppt4 13p ~ 28p
 	- [Python](Python/nday7.py)
 - Day 8
-
+	- 2025-02-05
+	- Python / ppt4 29p ~ 
+	- [Python](Python/nday8.py)
 	
 
 

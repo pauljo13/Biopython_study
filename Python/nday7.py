@@ -186,23 +186,4 @@ a = mod1.rcClass('ATAACCCCGCG')
 a.reverse_complement()
 b = mod1.rcClassChild('AAAT')
 b.rc_nt_ratio('T')
-
-
-
-# Practice
-myDir = '/Users/knu_cgl1/Desktop/Study/Obsidian/Biopython_study/Python'
-import os, sys
-import random
-import math
-print(os.getcwd())
-sys.path.append(myDir)
-import mod1
-
-for i in range(10):
-    print(random.choice(range(1, 20)))
-
-random.choices(range(1, 20), k = 5)
-random.choices(range(1, 5), k = 10)
-
-# 1. Generate 1000 x 20nt-sequences and write them in a new text file.
-outfile = open('%')
+    
