@@ -54,3 +54,7 @@ class rcClassChild(rcClass):
             return self.orig_seq.count(count_nt)
     def rc_nt_ratio(self, count_nt):
         return super().rc_nt_count(count_nt) / len(self.rev_seq)
+    
+
+if __name__ == '__main__':
+    helloworld()    
