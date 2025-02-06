@@ -112,4 +112,34 @@ outExprFile.close()
 inExprFile.close()
     
 # Practice 7. plot histogram
-with open()
+with open(f'{myDir}/BIC0711_practice1/GSE16659_series_matrix.txt', 'r') as inFile_raw:
+    val_raw = [line[:-1].split('\t')[1] for line in inFile_raw if line[0] == '"']
+
+def isfloat(x):
+    try:
+        float(x)
+        return True
+    except:
+        return False
+
+val_raw2 = [float(x) for x in list(filter(isfloat, val_raw))]
+
+
+with open(f'{myDir}/BIC0711_practice1/GSE16659_series_matrix_log2.txt', 'r') as inFile_new:
+    val_new = [float(line[:-1].split('\t')[1]) for line in inFile_new if line[0] == '"']
+
+# Filter(function, iterable) : iterable에서 function이 True인 것만 걸러내어 반환
+def isPositive(x):
+    return x >= 0
+
+a = filter(isPositive, [-1, 0, 1, 2, 3, -2, -3])
+a = list(a)
+print(a)
+
+# Matplotlib
+from matplotlib import pyplot as plt
+plt.hist(val_raw2)
+plt.xlabel('Gene expression')
+plt.ylabel('Frequency')
+plt.title('Raw distribution')
+plt.show()

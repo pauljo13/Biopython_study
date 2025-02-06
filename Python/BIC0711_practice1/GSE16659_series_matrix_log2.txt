@@ -1,4 +1,5 @@
 !Sample_title	"DU145N 2h noHGF"	"DU145N 2h withHGF"	"DU145N 8h noHGF"	"DU145N 8h withHGF"	"DU145N 24h noHGF"	"DU145N 24h withHGF"
+"1007_s_at"	8.71	8.98	8.93	9.66	8.79	9.49
 "1053_at"	8.96	8.77	8.54	9.13	8.15	8.73
 "117_at"	3.88	4.49	4.05	4.60	3.91	4.43
 "121_at"	6.23	6.29	6.37	5.83	5.89	6.14
