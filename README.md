@@ -83,6 +83,14 @@ Below is a summary of my daily learning milestones:
 	- Python / ppt4 29p ~ 48p
 	- [Python](Python/nday8.py)
 - Day 9
+	- 2025-02-06
+	- Python Practice / ppt4 49p ~ 55p
+	- [Python](Python/nday9.py)
+- Day 10
+	- 2025-02-07
+	- Python Practice Probe ID Annotation, difference in expression levels, / ppt4 66p , ppt5 1p ~
+	- [Scrips](Python/nday10.ipynb)
+- 
 
 	
 
