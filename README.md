@@ -89,8 +89,9 @@ Below is a summary of my daily learning milestones:
 - Day 10
 	- 2025-02-07
 	- Python Practice Probe ID Annotation, difference in expression levels, / ppt4 66p , ppt5 1p ~
-	- [Scrips](Python/nday10.ipynb)
-- 
+	- [Script1](Python/nday10.ipynb)
+	- [Script2](Python/nday10_2.ipynb)
+- Day
 
 	
 
